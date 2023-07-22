@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="weather_container">
+            <div class="input_grp">
+                <div class="input">
+                    <input type="input" name="input" id="search" placeholder="Search for a city" data-input-text>
+                    <div class="clear_btn">
+                        <span class="material-symbols-sharp" id="clearBtn">backspace</span>
+                    </div>
+                </div>
+                <div class="search_btn">
+                    <button class="searchBtn" data-search-btn>
+                        <span class="material-symbols-sharp" >search</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="weather_details">
+                <div class="city">
+                    <h2 class="city_name">__,</h2>
+                    <p class="current_day">(__)</p>
+                </div>
+                <p class="temprature">Temprature: __° C</p>
+                <div class="weather_conditon">
+                    <p class="wind">Wind: __ m/s</p>
+                    <p class="pressure">Humidity: __ %</p>
+                </div>
+                <div class="weather_temp">
+                    <p class="min_temp">Min: __° C</p>
+                    <p class="max_temp">Max: __° C</p>
+                </div>
+            </div>
+
+            <div class="more_weather">
+                <div class="weather_box">
+                    <div class="small_img">
+                        <!-- <img src="https://openweathermap.org/img/wn/10d@2x.png" alt=""> -->
+                    </div>
+                    <div class="small_weather_info">
+                        <p class="date">(__)</p>
+                        <p class="temp">Temprature: __° C</p>
+                        <p class="humid">Humidity: __%</p>
+                    </div>
+                </div>
+                <div class="weather_box">
+                    <div class="small_img">
+                        <!-- <img src="https://openweathermap.org/img/wn/10d@2x.png" alt=""> -->
+                    </div>
+                    <div class="small_weather_info">
+                        <p class="date">(__)</p>
+                        <p class="temp">Temprature: __° C</p>
+                        <p class="humid">Humidity: __%</p>
+                    </div>
+                </div>
+                <div class="weather_box">
+                    <div class="small_img">
+                        <!-- <img src="https://openweathermap.org/img/wn/10d@2x.png" alt=""> -->
+                    </div>
+                    <div class="small_weather_info">
+                        <p class="date">(__)</p>
+                        <p class="temp">Temprature: __° C</p>
+                        <p class="humid">Humidity: __%</p>
+                    </div>
+                </div>
+                <div class="weather_box">
+                    <div class="small_img">
+                        <!-- <img src="https://openweathermap.org/img/wn/10d@2x.png" alt=""> -->
+                    </div>
+                    <div class="small_weather_info">
+                        <p class="date">(__)</p>
+                        <p class="temp">Temprature: __° C</p>
+                        <p class="humid">Humidity: __%</p>
+                    </div>
+                </div>
+                <div class="weather_box">
+                    <div class="small_img">
+                        <!-- <img src="https://openweathermap.org/img/wn/10d@2x.png" alt=""> -->
+                    </div>
+                    <div class="small_weather_info">
+                        <p class="date">(__)</p>
+                        <p class="temp">Temprature: __° C</p>
+                        <p class="humid">Humidity: __%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- toast -->
+        <div class="toast" id="customToast"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
